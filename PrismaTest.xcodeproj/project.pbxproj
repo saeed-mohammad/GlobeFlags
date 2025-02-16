@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		801182EC2D623BF30070E920 /* login.png in Resources */ = {isa = PBXBuildFile; fileRef = 801182E92D623BF30070E920 /* login.png */; };
+		801182ED2D623BF30070E920 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = 801182EA2D623BF30070E920 /* home.png */; };
+		801182EE2D623BF30070E920 /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = 801182EB2D623BF30070E920 /* search.png */; };
 		806AF4BF2D2C039400BF2AB5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AF4BE2D2C039400BF2AB5 /* AppDelegate.swift */; };
 		806AF4C12D2C039400BF2AB5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AF4C02D2C039400BF2AB5 /* SceneDelegate.swift */; };
 		806AF4C32D2C039400BF2AB5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AF4C22D2C039400BF2AB5 /* ViewController.swift */; };
@@ -22,6 +25,9 @@
 /* Begin PBXFileReference section */
 		19BC413A4FAAAD7683D832A0 /* Pods-PrismaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrismaTest.release.xcconfig"; path = "Target Support Files/Pods-PrismaTest/Pods-PrismaTest.release.xcconfig"; sourceTree = "<group>"; };
 		513017B7AF9CB4F9D785F07D /* Pods_PrismaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrismaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		801182E92D623BF30070E920 /* login.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login.png; sourceTree = "<group>"; };
+		801182EA2D623BF30070E920 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		801182EB2D623BF30070E920 /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
 		806AF4BB2D2C039400BF2AB5 /* PrismaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrismaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806AF4BE2D2C039400BF2AB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		806AF4C02D2C039400BF2AB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +54,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		801182E82D623AE30070E920 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				801182E92D623BF30070E920 /* login.png */,
+				801182EA2D623BF30070E920 /* home.png */,
+				801182EB2D623BF30070E920 /* search.png */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 		806AF4B22D2C039300BF2AB5 = {
 			isa = PBXGroup;
 			children = (
@@ -69,6 +85,7 @@
 		806AF4BD2D2C039400BF2AB5 /* PrismaTest */ = {
 			isa = PBXGroup;
 			children = (
+				801182E82D623AE30070E920 /* screenshots */,
 				806AF4D42D2C0D5F00BF2AB5 /* customCell */,
 				806AF4BE2D2C039400BF2AB5 /* AppDelegate.swift */,
 				806AF4C02D2C039400BF2AB5 /* SceneDelegate.swift */,
@@ -171,6 +188,9 @@
 				806AF4D72D2C0D8E00BF2AB5 /* CountryCell.xib in Resources */,
 				806AF4C82D2C039600BF2AB5 /* Assets.xcassets in Resources */,
 				806AF4CB2D2C039600BF2AB5 /* Base in Resources */,
+				801182EC2D623BF30070E920 /* login.png in Resources */,
+				801182ED2D623BF30070E920 /* home.png in Resources */,
+				801182EE2D623BF30070E920 /* search.png in Resources */,
 				806AF4C62D2C039400BF2AB5 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
