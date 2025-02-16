@@ -13,9 +13,15 @@
 		806AF4C62D2C039400BF2AB5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 806AF4C52D2C039400BF2AB5 /* Base */; };
 		806AF4C82D2C039600BF2AB5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 806AF4C72D2C039600BF2AB5 /* Assets.xcassets */; };
 		806AF4CB2D2C039600BF2AB5 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 806AF4CA2D2C039600BF2AB5 /* Base */; };
+		806AF4D32D2C03FC00BF2AB5 /* CountryList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AF4D22D2C03FC00BF2AB5 /* CountryList.swift */; };
+		806AF4D72D2C0D8E00BF2AB5 /* CountryCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 806AF4D62D2C0D8E00BF2AB5 /* CountryCell.xib */; };
+		806AF4D82D2C0D8E00BF2AB5 /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 806AF4D52D2C0D8E00BF2AB5 /* CountryCell.swift */; };
+		889609D92AF84E654E0A8CD6 /* Pods_PrismaTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 513017B7AF9CB4F9D785F07D /* Pods_PrismaTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		19BC413A4FAAAD7683D832A0 /* Pods-PrismaTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrismaTest.release.xcconfig"; path = "Target Support Files/Pods-PrismaTest/Pods-PrismaTest.release.xcconfig"; sourceTree = "<group>"; };
+		513017B7AF9CB4F9D785F07D /* Pods_PrismaTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PrismaTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		806AF4BB2D2C039400BF2AB5 /* PrismaTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrismaTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		806AF4BE2D2C039400BF2AB5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		806AF4C02D2C039400BF2AB5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +30,10 @@
 		806AF4C72D2C039600BF2AB5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		806AF4CA2D2C039600BF2AB5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		806AF4CC2D2C039600BF2AB5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		806AF4D22D2C03FC00BF2AB5 /* CountryList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryList.swift; sourceTree = "<group>"; };
+		806AF4D52D2C0D8E00BF2AB5 /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
+		806AF4D62D2C0D8E00BF2AB5 /* CountryCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryCell.xib; sourceTree = "<group>"; };
+		D8CC1847865ABBEA42CABFFF /* Pods-PrismaTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PrismaTest.debug.xcconfig"; path = "Target Support Files/Pods-PrismaTest/Pods-PrismaTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				889609D92AF84E654E0A8CD6 /* Pods_PrismaTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +53,8 @@
 			children = (
 				806AF4BD2D2C039400BF2AB5 /* PrismaTest */,
 				806AF4BC2D2C039400BF2AB5 /* Products */,
+				FD6805AD71EB1CBB00E4B6D4 /* Pods */,
+				D5A85A036E1FA595FA011467 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +69,43 @@
 		806AF4BD2D2C039400BF2AB5 /* PrismaTest */ = {
 			isa = PBXGroup;
 			children = (
+				806AF4D42D2C0D5F00BF2AB5 /* customCell */,
 				806AF4BE2D2C039400BF2AB5 /* AppDelegate.swift */,
 				806AF4C02D2C039400BF2AB5 /* SceneDelegate.swift */,
 				806AF4C22D2C039400BF2AB5 /* ViewController.swift */,
+				806AF4D22D2C03FC00BF2AB5 /* CountryList.swift */,
 				806AF4C42D2C039400BF2AB5 /* Main.storyboard */,
 				806AF4C72D2C039600BF2AB5 /* Assets.xcassets */,
 				806AF4C92D2C039600BF2AB5 /* LaunchScreen.storyboard */,
 				806AF4CC2D2C039600BF2AB5 /* Info.plist */,
 			);
 			path = PrismaTest;
+			sourceTree = "<group>";
+		};
+		806AF4D42D2C0D5F00BF2AB5 /* customCell */ = {
+			isa = PBXGroup;
+			children = (
+				806AF4D52D2C0D8E00BF2AB5 /* CountryCell.swift */,
+				806AF4D62D2C0D8E00BF2AB5 /* CountryCell.xib */,
+			);
+			path = customCell;
+			sourceTree = "<group>";
+		};
+		D5A85A036E1FA595FA011467 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				513017B7AF9CB4F9D785F07D /* Pods_PrismaTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD6805AD71EB1CBB00E4B6D4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D8CC1847865ABBEA42CABFFF /* Pods-PrismaTest.debug.xcconfig */,
+				19BC413A4FAAAD7683D832A0 /* Pods-PrismaTest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +115,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 806AF4CF2D2C039600BF2AB5 /* Build configuration list for PBXNativeTarget "PrismaTest" */;
 			buildPhases = (
+				F8644B1B563F6BF16D020E33 /* [CP] Check Pods Manifest.lock */,
 				806AF4B72D2C039400BF2AB5 /* Sources */,
 				806AF4B82D2C039400BF2AB5 /* Frameworks */,
 				806AF4B92D2C039400BF2AB5 /* Resources */,
+				32D13E05E3A8877E181D1059 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +168,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806AF4D72D2C0D8E00BF2AB5 /* CountryCell.xib in Resources */,
 				806AF4C82D2C039600BF2AB5 /* Assets.xcassets in Resources */,
 				806AF4CB2D2C039600BF2AB5 /* Base in Resources */,
 				806AF4C62D2C039400BF2AB5 /* Base in Resources */,
@@ -133,12 +177,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		32D13E05E3A8877E181D1059 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrismaTest/Pods-PrismaTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PrismaTest/Pods-PrismaTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PrismaTest/Pods-PrismaTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8644B1B563F6BF16D020E33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PrismaTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		806AF4B72D2C039400BF2AB5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				806AF4D32D2C03FC00BF2AB5 /* CountryList.swift in Sources */,
 				806AF4C32D2C039400BF2AB5 /* ViewController.swift in Sources */,
+				806AF4D82D2C0D8E00BF2AB5 /* CountryCell.swift in Sources */,
 				806AF4BF2D2C039400BF2AB5 /* AppDelegate.swift in Sources */,
 				806AF4C12D2C039400BF2AB5 /* SceneDelegate.swift in Sources */,
 			);
@@ -287,12 +375,14 @@
 		};
 		806AF4D02D2C039600BF2AB5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D8CC1847865ABBEA42CABFFF /* Pods-PrismaTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D4LZ35P99Y;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PrismaTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -300,6 +390,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,12 +406,14 @@
 		};
 		806AF4D12D2C039600BF2AB5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19BC413A4FAAAD7683D832A0 /* Pods-PrismaTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = D4LZ35P99Y;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PrismaTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -328,6 +421,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
